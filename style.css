@@ -10,12 +10,14 @@
 	height: 85px;
 	background-image: url(https://cdn.pixabay.com/photo/2016/12/29/18/44/background-1939128_1280.jpg);
     background-repeat: repeat;
+    font-family: calibri;
 }
 
 .text {
     text-align:  center;
     font-size: 420%;
-    color: rgb(241, 56, 23)
+    color: rgb(241, 56, 23);
+    font-family: calibri;
 }
 
 .b1{
@@ -38,14 +40,16 @@
 #t1{
     margin: 15px;
     font-size: 400%;
-    color: rgb(49, 151, 116)
+    color: rgb(49, 151, 116);
+    font-family: calibri;
 }
 
 .li1{
     list-style-type: none;
     margin: 15px;
     font-size: 150%;
-    color: rgb(49, 151, 116)
+    color: rgb(49, 151, 116);
+    font-family: calibri;
 }
 
 .b2{
@@ -55,4 +59,23 @@
         justify-content: flex-start;
         align-items: flex-start;
         align-content: stretch;
+}
+
+.edu{
+    background-image: url(https://cdn.pixabay.com/photo/2016/12/29/18/44/background-1939128_1280.jpg);
+}
+
+#t2{
+    padding-left:  15px;
+    padding-top:  15px;
+    color: rgb(49, 151, 116);
+    font-family: calibri;
+}
+
+.li2{
+    list-style-type: none;
+    margin: 15px;
+    font-size: 150%;
+    color: rgb(49, 151, 116);
+    font-family: calibri;
 }
