@@ -98,3 +98,13 @@ body{
     list-style-type: disc;
     padding-left: 50px;
 }
+
+A {
+    color: rgb(5, 109, 72); /* Цвет ссылок */
+   }
+   A:visited {
+    color: rgb(5, 109, 72); /* Цвет посещенных ссылок */
+   }
+   A:active {
+    color: rgb(5, 109, 72); /* Цвет активных ссылок */
+   }
