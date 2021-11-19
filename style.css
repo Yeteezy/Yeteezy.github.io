@@ -24,12 +24,12 @@ body{
 }
 
 .b1{
-        display: flex;
-        flex-direction: row;
-        flex-wrap: nowrap;
-        justify-content: flex-start;
-        align-items: flex-start;
-        align-content: stretch;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: stretch;
 }
 
 #img1{
@@ -76,4 +76,25 @@ body{
     font-size: 150%;
     color: rgb(49, 151, 116);
     font-family: calibri;
+}
+
+.li3{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: stretch;
+	align-content: center;
+    margin-left: 15px;
+    padding-left:  15px;
+    padding-right: 15px;
+    padding-bottom:  8px;
+    font-size: 150%;
+    color: rgb(49, 151, 116);
+    font-family: calibri;
+}
+
+#li33{
+    list-style-type: disc;
+    padding-left: 50px;
 }
