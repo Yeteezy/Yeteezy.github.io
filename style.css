@@ -34,6 +34,8 @@ body{
 
 #img1{
     background-image: url(https://dota2.ru/img/heroes/tinker/portrait.jpg);
+    border-radius: 30px;
+    margin-left:  15px;
     width: 235px;
     height: 272px;
 }
