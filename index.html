@@ -1,80 +1,137 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Puck you!</title>
+	<title>Megasport</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
-	<link rel="shortcut icon" href="https://t4.ftcdn.net/jpg/00/57/31/19/360_F_57311906_SRZ1UTqWKCyXvWIdzXftA75cXdhun3X6.jpg">
+	<link rel="stylesheet" type="text/css" href="slider.css">
+	<link rel="shortcut icon" href="icon.png" type="image/png">
 </head>
 <body>
-	<header class="h1">
-		<h1 class="text">Hello world!</h1>
-	</header>
-  <div class="b1">
-      <div id="img1"></div>
-      <div class="b2">
-        <div>
-          <h1 id="t1">Puck you!</h1>
-        </div>
-      <div>
-        <ul class="li1">
-          <li>Desired position: Full stack web-developer</li>
-          <li>City: Lviv</li>
-          <li>Number: +380990990380</li>
-          <li>Email: divanovvstup2021@gmail.com</li>
-        </ul>
-      </div>  
-      </div>
-  </div>
-  <div class="edu">
-    <h1 id="t2">EDUCATION:</h1>
-    <ul class="li2">
-      <li>Speciality: Software engineering</li>
-      <li>City: Lviv</li>
-      <li>Faculty, educational institution, city: Lviv, Ivan Franko National University of Lviv, Faculty of Electronics</li>
-      <li>Degree of education: Higher Education</li>
-    </ul>
-  </div>
-  <div class="prof">
-    <h1 id="t2">Personal qualities:</h1>
-    <ul class="li3">
-      <div>
-        <li>A responsibility</li>
-        <li>Attentiveness</li>
-        <li>Friendship</li>
-      </div>
-      <div id="li33">
-      <li>Sociability and communicative</li>
-      <li>Punctuality</li>
-      <li>Purposefulness </li>
-      </div>
-    </ul>
-  </div>
-  <div class="prof1">
-    <h1 id="t2">Hobbies:</h1>
-    <ul class="li3">
-      <div>
-        <li>Swimming</li>
-        <li>Playing chess</li>
-      </div>
-      <div id="li33">
-      <li>Basketball and volleyball</li>
-      <li>Reading books</li>
-      </div>
-    </ul>
-  </div>
-  <div class="prof1">
-    <h1 id="t2">Contacts:</h1>
-    <ul class="li3">
-      <div>
-        <li ><a href="https://www.instagram.com/puck_you17">Instagram</a></li>
-        <li ><a href="https://t.me/puck_you17">Telegram</a></li>
-      </div>
-      <div id="li33">
-      <li><a href="https://www.facebook.com">Facebook</a></li>
-      <li><a href="https://twitter.com/">Twitter</a></li>
-      </div>
-    </ul>
-  </div>
- 
+	<div id="header">
+		<header class="header">
+			<h1 id="t1">Megasport</h1>
+			<div class="menu">
+				<a id="gr">НОВИНКИ</a>
+				<a>Мужчинам</a>
+				<a>ЖЕНИЩИНАМ</a>
+				<a>ДЕТЯМ</a>
+				<a id="red">OUTLET</a>
+				<a>БРЕНДЫ</a>
+				<a>СКИДКИ</a>
+			</div>
+		</header>	
+	</div>
+	
+	<div class="wrapper">
+		<input type="radio" name="point" id="slide1" checked>
+		<input type="radio" name="point" id="slide2">
+		<input type="radio" name="point" id="slide3">
+		<input type="radio" name="point" id="slide4">
+		<input type="radio" name="point" id="slide5">
+		<div class="slider">
+			<div class="slides slide1"></div>
+			<div class="slides slide2"></div>
+			<div class="slides slide3"></div>
+			<div class="slides slide4"></div>
+			<div class="slides slide5"></div>
+		</div>
+		<div class="controls">
+			<label for="slide1"></label>
+			<label for="slide2"></label>
+			<label for="slide3"></label>
+			<label for="slide4"></label>
+			<label for="slide5"></label>
+		</div>
+	</div>
+	
+	<div id="sl">
+	</div>
+	
+	<div id="test">
+		<h1>Выбрать бренд➜</h1>
+	</div>
+	
+	<div id="brands">
+		<img class="logo" src="https://i.pinimg.com/originals/bd/c8/1a/bdc81a948abd4361288cf3a2d709261e.jpg"  alt="nike"/>
+		<img class="logo" src="https://images.shafastatic.net/114638319"  alt="puma"/>
+		<img class="logo" src="https://cdn.mos.cms.futurecdn.net/itnUbYU4tL3vZPAfdeiosH.jpg"  alt="rb"/>
+		<img class="logo" src="https://rnli.org/-/media/rnli/images/support-us/hhlogo_digital_1500x844.jpg"  alt="hh"/>
+		<img class="logo" src="https://d353r0i7qv3gvw.cloudfront.net/23/24323/stage-mobile/7161574.jpg"  alt="si"/>
+		<img class="logo" src="https://i.pinimg.com/originals/7e/30/71/7e30717f5dacd08585e139b670726397.jpg"  alt="nb"/>
+	</div>
+	
+	<div id="m1">
+		<h1>Скидки➜</h1>
+		<div id="space3d">
+			<div id="kub">
+				<div class="side front"><!--front--></div>
+				<div class="side back"><!--back--></div>
+				<div class="side left"><!--left--></div>
+				<div class="side right"><!--right--></div>
+				<div class="side top"><!--top--></div>
+				<div class="side bottom"><!--bottom--></div>
+			</div>	
+		</div>
+	</div>
+	
+	<div id="test1">
+		<h1>Наш магазин➜</h1>
+		<div>
+			<p class="contact">Адрес:ул.Большая Перспективная (К. Маркса), 38/33.</p>
+			<p class="contact">Контактные номера: (050) 445-30-72, (095) 075 07 07.</p>
+			<p class="contact">График работы: Каждый день с 10:00 до 20:00, кроме воскресенья: с 10:00 до 19:00.</p>
+		</div>
+		<div >
+			<img class="map"src="https://kharkov.info/sites/default/files/images/map/staticmap-85580.png" alt="Картинка"/>
+			<img class="map"src="https://trademaster.ua/im/pics/6378953-TradeMasters.jpg" alt="Картинка2"/>
+			<img class="map"src="https://megasport.ua/ua/image/news/img_a58ae1843aeb4fb6cc297a61f20fcf88_v_1-660b262.jpg" alt="Картинка3"/>
+			<img class="map"src="https://rau.ua/wp-content/uploads/2018/09/intersport-10.jpg" alt="Картинка4"/>
+		</div>
+	</div>
+	<footer>
+		<div class="foot">
+			<div>	
+				<ul class="f2">	
+					<h3>Дисконтная программа</h3>	
+					<li>Детали дисконтной программы</li>
+					<li>Активация клубной карты</li>
+					<li>Статус заказа</li>
+					<li>Наши магазины</li>
+					<li>Карта сайта</li>
+				</ul>
+			</div>
+
+			<div>
+				<ul class="f1">	
+					<h3>Покупателю</h3>	
+					<li>Оплата и доставка</li>
+					<li>Возврат товара</li>
+					<li>Гарантии</li>
+					<li>О нас</li>
+					<li>Вопросы и ответы</li>
+				</ul>
+			</div>
+			<div>
+				<ul class="f1">	
+					<h3>Контакты</h3>	
+					<li>068 075 07 07</li>
+					<li>095 075 07 07</li>
+					<li>073 075 07 07</li>
+					<li>0 800 505 124</li>
+					<li>095 589 54 55</li>
+				</ul>
+			</div>
+			<div>
+				<ul class="f1">	
+					<h3>Наши соц.сети</h3>	
+					<li>Instagram</li>
+					<li>Facebook</li>
+					<li>Telegram</li>
+					<li>Watsupp</li>
+					<li>TikTok</li>
+				</ul>
+			</div>
+		</div>
+	</footer>
 </body>
-</html>	
+</html>
