@@ -1,8 +1,25 @@
-*{
-	margin: 0px;
-	padding: 0px;
+body {
+	background-image: url(https://365psd.ru/images/backgrounds/bg-lightl-889.jpg);
 }
 
-body {
-	background-image: url(https://cdn.pixabay.com/photo/2016/12/29/18/44/background-1939128_1280.jpg);
+#reg{
+    text-align: center;
+    color: #F71D08;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+input[type="text"], input[type="date"], input[type="email"], input[type="tel"], input[type="password"], textarea{
+    width: 100%;
+    margin-bottom: 2px;
+    box-sizing: border-box;
+    border: 1px solid grey;
+}
+
+label{
+    color: black;
+}
+
+#c_gender {
+
+    margin-bottom: 5px;
 }

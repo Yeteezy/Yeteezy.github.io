@@ -1,16 +1,85 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title>Megasport</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<link rel="stylesheet" type="text/css" href="slider.css">
-	<link rel="shortcut icon" href="icon.png" type="image/png">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Авторизація</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-	<div id="header">
-		<header class="header">
-			<h1 id="t1">Megasport</h1>
-	</div>
-		</header>	
+    <form action="">
+        
+        <div>
+            <h1 id="reg">Registration</h1>
+            <hr>
+            <div id="name_form">
+                <label for="firstname">Firstname</label>
+            <input type="text" name="firstname" placeholder="Firstname" required>
+            <br>
+            <label for="lastname">Lastname</label>
+            <input type="text" name="lastname" placeholder="Lastname" required >
+            </div>
+            <lable>Information</lable> 
+                <div id="c_gender">
+                <input type="radio" name="person" id="female_r">
+                <label for="female">Female</label> 
+                <input type="radio" name="person" id="male_r">
+                <label for="male">Male</label>
+            </div>
+            <input type="date" name="date_birth" id="date_birth">
+            <br>
+            <input type="email" name="email" id="email" placeholder="Email">
+            <br>
+            <input type="tel" name="tel" id="tel" placeholder="Phone">
+            <div id="pass_form">
+                <label for="psw">Password</label>
+                <input type="password" placeholder="Enter Password" name="psw" required>
+                <br>
+                <label for="psw-repeat">Repeat Password</label>
+                <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+            </div>
+
+            <div id="lan_form">
+                <label>Programing knowledge</label>
+                <div id="lan_ch">
+                    <input type="checkbox" name="py" id="py">
+                    <label for="">python</label>
+                    <br>
+                    <input type="checkbox" name="c++" id="c++">
+                    <label for="">C++</label>
+                    <br>
+                    <input type="checkbox" name="c" id="C">
+                    <label for="">C</label>
+                    <br>
+                    <input type="checkbox" name="c#" id="c#">
+                    <label for="">c#</label>
+                </div>
+            </div>
+
+            <div id="lan_form">
+                <label>Language knowledge</label>
+                <div id="lan_ch">
+                    <input type="checkbox" name="ukr" id="ukr">
+                    <label for="">Ukrainian</label>
+                    <br>
+                    <input type="checkbox" name="ru" id="ru">
+                    <label for="">Russian</label>
+                    <br>
+                    <input type="checkbox" name="eng" id="eng">
+                    <label for="">English</label>
+                </div>
+            </div>
+            <div id="Interests_form">
+                <label for="subject">Interests</label>
+            <br>
+            <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+            </div>
+            <div id="send_form">
+                <input type="reset" value="Очистити">
+        <input type="submit" value="Відправити">
+            </div>
+        </div>
+    </form>
 </body>
 </html>
